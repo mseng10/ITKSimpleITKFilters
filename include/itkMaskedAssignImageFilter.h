@@ -61,7 +61,7 @@ class MaskedAssignImageFilter : public TernaryGeneratorImageFilter<TInputImage, 
 
 {
 public:
-  ITK_DISALLOW_COPY_AND_MOVE(MaskedAssignImageFilter);
+  ITK_DISALLOW_COPY_AND_ASSIGN(MaskedAssignImageFilter);
 
   /** Standard class type aliases. */
   using Self = MaskedAssignImageFilter;

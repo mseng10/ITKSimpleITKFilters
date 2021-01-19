@@ -46,7 +46,7 @@ template <typename TInputImage,
 class HessianImageFilter : public ImageToImageFilter<TInputImage, TOutputImage>
 {
 public:
-  ITK_DISALLOW_COPY_AND_MOVE(HessianImageFilter);
+  ITK_DISALLOW_COPY_AND_ASSIGN(HessianImageFilter);
 
   /** Standard type alias */
   using Self = HessianImageFilter;
